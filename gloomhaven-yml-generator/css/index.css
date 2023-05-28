@@ -1,0 +1,229 @@
+/* Main styles*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #3e3e3e;
+    min-width: 450px;
+}
+
+h1
+{
+    text-align: center;
+    min-width: 520px;
+    max-width: 700px;
+    color: #ffdd00;
+    margin: 10px auto;
+    border-bottom: 3px solid #ffdd00;
+}
+
+h2
+{
+    text-align: center;
+    color: #ffdd00;
+    border-bottom: 3px solid #ffdd00;
+    margin: auto -16px;
+}
+
+h2.yml-parser-preview
+{
+    margin-top: 25px;
+}
+
+h3
+{
+    text-align: center;
+    color: #ffdd00;
+    text-decoration: underline;
+}
+
+div#parser-selection-div
+{
+    text-align: center;
+    margin: 15px;
+}
+
+div#parser-selection-div label
+{
+    font-size: 1.4em;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+select#yml-parser-selector
+{
+    max-width: 400px;
+}
+
+div.yml-form
+{
+    min-width: 400px;
+    max-width: 650px;
+    margin: auto;
+    border: 3px solid #ffdd00;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+
+div.yml-form div
+{
+    margin: 10px 0px;
+}
+
+label
+{
+    display: inline-block;
+    text-align: right;
+    color: #ffdd00;
+    width: 135px;
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+
+input, select, textarea
+{
+    background-color: #E0C9A6;
+    width: 70%;
+    font-size: 1.05em;
+    vertical-align: top;
+}
+
+div textarea
+{
+    font-size: 1.4em;
+}
+
+div#form-button-div
+{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+button
+{
+    background-color: #3e3e3e;
+    color: #ffdd00;
+    font-size: 1.3em;
+    text-decoration: underline;
+    margin: 0px 10px;
+    border: 3px solid #ffdd00;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover
+{
+    background-color: #ffdd00;
+    color: #3e3e3e;
+    border: 3px solid #3e3e3e;
+}
+
+button:active
+{
+    font-size: 1.25em;
+}
+
+footer
+{
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    border-top: 3px solid #ffdd00;
+    margin-top: 10px;
+}
+
+footer p
+{
+    margin: 10px auto;
+}
+
+/* YML Character Generator Form*/
+
+
+/*Treasure Table*/
+button.treasure-table-buttons
+{
+    display: block;
+    font-size: .9em;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px auto;
+}
+
+div.yml-form div.treasure-table-section
+{
+    text-align: center;
+    border-top: 3px solid #ffdd00;
+    padding: 10px 0px;
+}
+
+div.treasure-table-section label
+{
+    width: 105px;
+}
+
+.treasure-table-reward-input
+{
+    width: 45%;
+}
+
+/* Classes */
+
+.character-health-table-input
+{
+    width: 6.5%;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.invalid-input
+{
+    background-color: rgb(136, 26, 26);
+}
+
+.todo
+{
+    background-color: blue;
+    color:gainsboro;;
+}
+
+@media screen and (max-width: 600px) {
+    select#yml-parser-selector
+    {
+        max-width: none;
+    }
+
+    label
+    {
+        display: block;
+        text-align: left;
+        width: auto;
+    }
+
+    input, select, textarea
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .character-health-table-input
+    {
+        display: inline-block;
+        width: 9%;
+        text-align: center;
+    }
+
+    .treasure-table-reward-input
+    {
+        display: inline;
+        width: 40%;
+    }
+}
