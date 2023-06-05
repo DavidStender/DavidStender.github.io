@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HorrorLA</title>
+    <title>Unity WebGL Player | Horror</title>
     <style>
       body
       {
@@ -13,7 +13,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=640 height=480 style="width: 640px; height: 480px; background: #231F20"></canvas>
-    <script src="Build/v1.04.loader.js"></script>
+    <script src="Build/horror.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -24,9 +24,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/v1.04.data.unityweb",
-        frameworkUrl: "Build/v1.04.framework.js.unityweb",
-        codeUrl: "Build/v1.04.wasm.unityweb",
+        dataUrl: "Build/horror.data.unityweb",
+        frameworkUrl: "Build/horror.framework.js.unityweb",
+        codeUrl: "Build/horror.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "HorrorLA",
