@@ -1,0 +1,66 @@
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #5597B4;
+}
+
+main
+{
+    margin: 15px 20px;
+}
+
+h1
+{
+    color: white;
+    border-bottom: 4px solid #919191;
+    padding: 0 10px;
+}
+
+table
+{
+    font-size: 1.15em;
+    border-collapse: collapse;
+}
+
+tr
+{
+    padding: 15px;
+}
+
+td
+{
+    color: white;
+    padding: 15px 10px;
+}
+
+table tbody tr td:first-of-type
+{
+    min-width: 110px;
+    max-width: 200px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline #919191 3px;
+    vertical-align: top;
+}
+
+a
+{
+    color:darkblue;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color:#919191;
+}
+
+a:visited
+{
+    color: black;
+}
