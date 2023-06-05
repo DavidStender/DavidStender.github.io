@@ -11,7 +11,7 @@
       }
     </style>
   </head>
-  <body style="text-align: center;">
+  <body style="text-align: center">
     <canvas id="unity-canvas" width=640 height=480 style="width: 640px; height: 480px; background: #231F20"></canvas>
     <script src="Build/v1.04.loader.js"></script>
     <script>
@@ -24,9 +24,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/v1.04.data.gz",
-        frameworkUrl: "Build/v1.04.framework.js.gz",
-        codeUrl: "Build/v1.04.wasm.gz",
+        dataUrl: "Build/v1.04.data.unityweb",
+        frameworkUrl: "Build/v1.04.framework.js.unityweb",
+        codeUrl: "Build/v1.04.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "HorrorLA",
