@@ -3,3 +3,26 @@ body
     color: white;
     background-color: #5597B4;
 }
+
+ul li
+{
+    padding: 5px 0px;
+}
+
+a
+{
+    color:darkblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color:#919191;
+}
+
+a:visited
+{
+    color: black;
+}

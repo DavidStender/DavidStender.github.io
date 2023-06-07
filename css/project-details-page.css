@@ -49,9 +49,17 @@ table tbody tr td:first-of-type
     vertical-align: top;
 }
 
+h1 a
+{
+    font-size: 1em;
+    text-decoration: none;
+}
+
 a
 {
     color:darkblue;
+    font-size: 1.3em;
+    font-weight: bold;
     text-decoration: underline;
 }
 
